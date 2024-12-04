@@ -1,0 +1,173 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha ao topo da tela */
+    min-height: 100vh;
+    padding-top: 50px; /* Espaço extra no topo */
+    box-sizing: border-box;
+}
+
+/* Estilo do formulário */
+form {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column; /* Garante que os itens fiquem na coluna */
+    font-size: 14px; /* Texto menor no formulário */
+    margin-top: 50px; /* Desloca o formulário mais para baixo */
+    box-sizing: border-box;
+}
+
+/* Estilo dos rótulos */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Estilo dos campos de entrada */
+form input[type="text"],
+form input[type="number"],
+form input[type="decimal"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Texto maior nos campos */
+    box-sizing: border-box;
+}
+
+/* Botão de envio */
+button {
+    padding: 10px;
+    background-color: #5199e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Tamanho de fonte maior no botão */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px; /* Espaço entre o botão e o campo anterior */
+}
+
+button:hover {
+    background-color: #3d6fcd;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    margin: 30px 0;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px; /* Texto maior na tabela */
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Estilo do modal */
+.modal-content {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-top: 10px;
+    height: 100%; /* Faz o formulário ocupar toda a altura disponível */
+    justify-content: space-between; /* Distribui os elementos e coloca os botões no final */
+}
+
+/* Estilo do botão do modal */
+input[type="submit"] {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #5199e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-end; /* Alinha o botão à direita */
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3d6fcd;
+}
+
+input[type="submit"]:hover {
+    background-color: #3d6fcd;
+}
+
+/* Estilo dos botões dentro do formulário */
+form button[type="submit"],
+form input[type="submit"],
+form input[type="reset"] {
+    width: auto; /* Ajuste a largura conforme necessário */
+    margin-top: 10px; /* Menor espaço entre os botões */
+    padding: 12px;
+    font-size: 16px;
+    background-color: #5199e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block; /* Coloca os botões lado a lado */
+    margin-right: 10px; /* Espaçamento entre os botões */
+}
+
+form input[type="submit"] {
+    background-color: #5199e2;
+    color: white;
+}
+
+form input[type="reset"] {
+    background-color: #3d6fcd; /* Cor vermelha para reset */
+    color: white;
+}
+
+form button[type="submit"]:hover,
+form input[type="submit"]:hover {
+    background-color: #3d6fcd;
+}
+
+form input[type="reset"]:hover {
+    background-color: #3d6fcd;
+}

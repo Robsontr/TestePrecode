@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\css\style.css"> <!-- Aqui você adiciona o CSS -->
+
+    <title>Cadastro de Produto</title>
+</head>
+<body>
+
+    <form id="Products" method="POST">
+        <h1>Cadastro de Produtos</h1>
+        <label for="sku">sku:</label>
+        <input type="number" name="sku" id="sku"><br><br>
+
+        <label for="name">name:</label>
+        <input type="text" name="name" id="name" required><br><br>
+
+        <label for="description">description:</label>
+        <input type="text" name="description" id="description" required><br><br>
+
+        <label for="shortName">shortName:</label>
+        <input type="text" name="shortName" id="shortName"><br><br>
+
+        <label for="status">Status:</label>
+        <select name="status" id="status" required>
+            <option value="enabled">Enabled</option>
+            <option value="disabled">Disabled</option>
+        </select><br><br>
+
+        <label for="wordKeys">wordKeys:</label>
+        <input type="text" name="wordKeys" id="wordKeys"><br><br>
+
+        <label for="price">price:</label>
+        <input type="number" name="price" id="price" required><br><br>
+
+        <label for="promotionalPrice">promotionalPrice:</label>
+        <input type="number" name="promotionalPrice" id="promotionalPrice" required><br><br>
+
+        <label for="cost">cost:</label>
+        <input type="number" name="cost" id="cost" required><br><br>
+
+        <label for="weight">weight:</label>
+        <input type="number" name="weight" id="weight" required><br><br>
+
+        <label for="width">width:</label>
+        <input type="number" name="width" id="width" required><br><br>
+
+        <label for="height">height:</label>
+        <input type="number" name="height" id="height" required><br><br>
+
+        <label for="length">length:</label>
+        <input type="number" name="length" id="length" required><br><br>
+
+        <label for="brand">brand:</label>
+        <input type="text" name="brand" id="brand" required><br><br>
+
+        <label for="urlYoutube">urlYoutube:</label>
+        <input type="text" name="urlYoutube" id="urlYoutube"><br><br>
+
+        <label for="googleDescription">googleDescription:</label>
+        <input type="text" name="googleDescription" id="googleDescription"><br><br>
+
+        <label for="manufacturing">manufacturing:</label>
+        <input type="text" name="manufacturing" id="manufacturing"><br><br>
+
+        <label for="nbm">nbm:</label>
+        <input type="text" name="nbm" id="nbm"><br><br>
+
+        <label for="model">model:</label>
+        <input type="text" name="model" id="model"><br><br>
+
+        <label for="gender">gender:</label>
+        <input type="text" name="gender" id="gender"><br><br>
+
+        <label for="volumes">volumes:</label>
+        <input type="number" name="volumes" id="volumes"><br><br>
+
+        <label for="warrantyTime">warrantyTime:</label>
+        <input type="number" name="warrantyTime" id="warrantyTime"><br><br>
+
+        <label for="category">category:</label>
+        <input type="text" name="category" id="category"><br><br>
+
+        <label for="subcategory">subcategory:</label>
+        <input type="text" name="subcategory" id="subcategory"><br><br>
+
+        <label for="endcategory">endcategory:</label>
+        <input type="text" name="endcategory" id="endcategory"><br><br>
+
+        <label for="keys">Keys:</label>
+        <input type="text" name="keys" id="keys"><br><br>
+
+        <label for="values">Values:</label>
+        <input type="text" name="values" id="values"><br><br>
+
+        <label for="key">Key:</label>
+        <input type="text" name="key" id="key"><br><br>
+
+        <label for="value">Value:</label>
+        <input type="text" name="value" id="value"><br><br>
+
+        <label for="ref">ref:</label>
+        <input type="text" name="ref" id="ref"><br><br>
+
+        <label for="qty">qty:</label>
+        <input type="number" name="qty" id="qty" required><br><br>
+
+        <label for="ean">ean:</label>
+        <input type="number" name="ean" id="ean"><br><br>
+
+        <label for="images">images:</label>
+        <input type="text" name="images" id="images"><br><br>
+    </form>
+    
+    <button onclick="enviarFormularios()">Cadastrar</button>
+    <button onclick="Produtos()">Produtos</button>
+
+    <script src="..\Javascript\Javascript.js"></script>
+
+</body>
+</html>
